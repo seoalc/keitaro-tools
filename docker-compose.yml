@@ -1,0 +1,9 @@
+services:
+  app:
+    image: keitaro-tools
+    command: python /app/src/main.py
+    volumes:
+      - ./src:/app/src
+    environment:
+      KEITARO_URL: ${KEITARO_URL}
+      KEITARO_API_KEY: ${KEITARO_API_KEY}
