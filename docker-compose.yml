@@ -1,9 +1,14 @@
 services:
   app:
+    build: .
     image: keitaro-tools
     command: python /app/src/main.py
     volumes:
       - ./src:/app/src
+      - ./landings_archives:/app/landings_archives
     environment:
       KEITARO_URL: ${KEITARO_URL}
       KEITARO_API_KEY: ${KEITARO_API_KEY}
+
+  clamav:
+    image: clamav/clamav:latest

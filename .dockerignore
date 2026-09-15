@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 venv/
 env/
+
+test_data/
+.test_data/

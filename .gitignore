@@ -9,3 +9,6 @@ __pycache__/
 .env
 
 *.pyc
+
+test_data/
+.test_data/
