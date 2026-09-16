@@ -1,6 +1,4 @@
 import base64
-from importlib.resources import path
-import os
 import httpx
 from pathlib import Path
 import clamd

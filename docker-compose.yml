@@ -6,6 +6,7 @@ services:
     volumes:
       - ./src:/app/src
       - ./landings_archives:/app/landings_archives
+      - ./offers_archives:/app/offers_archives
     environment:
       KEITARO_URL: ${KEITARO_URL}
       KEITARO_API_KEY: ${KEITARO_API_KEY}
