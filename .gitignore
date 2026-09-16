@@ -12,3 +12,6 @@ __pycache__/
 
 test_data/
 .test_data/
+
+offers_archives/
+.offers_archives/
