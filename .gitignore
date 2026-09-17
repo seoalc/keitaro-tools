@@ -15,3 +15,9 @@ test_data/
 
 offers_archives/
 .offers_archives/
+offers_archives_old/
+.offers_archives_old/
+landings_archives/
+.landings_archives/
+landing_archives_old/
+.landing_archives_old/

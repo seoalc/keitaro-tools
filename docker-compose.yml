@@ -7,9 +7,15 @@ services:
       - ./src:/app/src
       - ./landings_archives:/app/landings_archives
       - ./offers_archives:/app/offers_archives
+      - ./offers_archives_old:/app/offers_archives_old
+      - ./landing_archives_old:/app/landing_archives_old
     environment:
       KEITARO_URL: ${KEITARO_URL}
       KEITARO_API_KEY: ${KEITARO_API_KEY}
+      KEITARO_OLD_URL: ${KEITARO_OLD_URL}
+      KEITARO_OLD_API_KEY: ${KEITARO_OLD_API_KEY}
+      KEITARO_ASIA_URL: ${KEITARO_ASIA_URL}
+      KEITARO_ASIA_API_KEY: ${KEITARO_ASIA_API_KEY}
 
   clamav:
     image: clamav/clamav:latest
