@@ -1,0 +1,86 @@
+{
+  "14": {
+    "id": 14,
+    "filename": "KW_Tareq_Al-Suwaidan_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Tareq Al-Suwaidan | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW"
+  },
+  "13": {
+    "id": 13,
+    "filename": "KW_Mishari_Rashid_Al-Afasy_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mishari Rashid Al-Afasy | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW"
+  },
+  "12": {
+    "id": 12,
+    "filename": "KW_Mohammed_Alshaya_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mohammed Alshaya | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW"
+  },
+  "11": {
+    "id": 11,
+    "filename": "KW_Shujoon_Al-Hajri_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Shujoon Al-Hajri | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW"
+  },
+  "10": {
+    "id": 10,
+    "filename": "KW_Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mishal Al-Ahmad Al-Jaber Al-Sabah | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW"
+  },
+  "9": {
+    "id": 9,
+    "filename": "PH_Marra_PL_Lanot_Inheritance_DIS_1_sa.zip",
+    "name": "PH | Marra PL Lanot | Inheritance | DIS#1",
+    "geo": "PH"
+  },
+  "8": {
+    "id": 8,
+    "filename": "без_медиа_PH_Rosa_Rosal_Inheritance_DIS_1_sa.zip",
+    "name": "(без медиа) PH | Rosa Rosal | Inheritance | DIS#1",
+    "geo": "PH"
+  },
+  "7": {
+    "id": 7,
+    "filename": "AU_Jacqui_Lambie_Angus_Taylor_sa.zip",
+    "name": "AU | Jacqui Lambie, Angus Taylor",
+    "geo": "AU"
+  },
+  "6": {
+    "id": 6,
+    "filename": "nrk_harald_v3_landing_sa.zip",
+    "name": "nrk_harald_v3_landing",
+    "geo": "NO"
+  },
+  "5": {
+    "id": 5,
+    "filename": "nrk_harald_v2_landing_sa.zip",
+    "name": "nrk_harald_v2_landing",
+    "geo": "NO"
+  },
+  "4": {
+    "id": 4,
+    "filename": "nrk_harald_v1_landing_sa.zip",
+    "name": "nrk_harald_v1_landing",
+    "geo": "NO"
+  },
+  "3": {
+    "id": 3,
+    "filename": "NO_Espen_Nakstad_sa.zip",
+    "name": "NO | Espen Nakstad",
+    "geo": "NO"
+  },
+  "2": {
+    "id": 2,
+    "filename": "NO_Øystein_Stray_Spetalen_sa.zip",
+    "name": "NO | Øystein Stray Spetalen",
+    "geo": "NO"
+  },
+  "1": {
+    "id": 1,
+    "filename": "AU_Alan_Kohler_Invest_DIS_1_sa.zip",
+    "name": "AU | Alan Kohler | Invest | DIS#1",
+    "geo": "AU"
+  }
+}
