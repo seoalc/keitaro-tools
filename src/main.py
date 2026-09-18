@@ -21,6 +21,7 @@ import httpx
 import zipfile
 import io
 import base64
+from pathlib import Path
 
 print("Keitaro URL:", KEITARO_URL)
 print("API key exists:", bool(KEITARO_API_KEY))
@@ -49,17 +50,13 @@ upload_offer_pages("offers_archives")
 # update_offer_file(40, "files/test2.txt", "hello2")
 
 """ внедрение валидатора поля email в офферы с проверкой """
-# from pathlib import Path
 # js_path = Path(__file__).parent / "email-validation.js"
 # with open(js_path, "r", encoding="utf-8") as f:
 #     js = f.read()
 # log_path = Path(__file__).parent / "inject_log.txt"
 # inject_validator_into_all_offers(js, log_path=log_path)
 
-
-# for line in inject_validator_into_offer(40, js, dry_run=False):
-#     print(line)
-
+""" запуск внедрения валидатора поля email на конкретных офферах по id """
 # test_ids = [324, 323, 195, 194]
 # for oid in test_ids:
 #     try:
