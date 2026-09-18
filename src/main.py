@@ -1,8 +1,11 @@
 from config import KEITARO_URL, KEITARO_API_KEY
 from landings import upload_landing_pages, scan_file
 from offers import upload_offer_pages, upload_offer_page
-from kt_files import update_offer_file, get_offer_file, download_offer_archive
+from kt_files import update_offer_file, get_offer_file, get_offer_files_structure, walk_files, inject_validator_into_offer, download_offer_archive, modify_offer_archive, inject_validator_into_all_offers
 import httpx
+import zipfile
+import io
+import base64
 
 print("Keitaro URL:", KEITARO_URL)
 print("API key exists:", bool(KEITARO_API_KEY))
@@ -16,8 +19,35 @@ print("URL exists:", bool(KEITARO_URL))
 # after = get_offer_file(40, "send.php")
 # print("MATCH:", original == after)
 
-data = download_offer_archive(40)
-print("Bytes:", len(data))
-print("Magic:", data[:4])
-with open("offers_archives/40_offer_archive_sa.zip", "wb") as f:
-    f.write(data)
+# update_offer_file(40, "files/test2.txt", "hello2")
+
+from pathlib import Path
+js_path = Path(__file__).parent / "email-validation.js"
+with open(js_path, "r", encoding="utf-8") as f:
+    js = f.read()
+
+log_path = Path(__file__).parent / "inject_log.txt"
+inject_validator_into_all_offers(js, log_path=log_path)
+
+# for line in inject_validator_into_offer(40, js, dry_run=False):
+#     print(line)
+# test_ids = [324, 323, 195, 194]
+# for oid in test_ids:
+#     try:
+#         data = download_offer_archive(oid)
+#         print(f"[{oid}] downloaded, {len(data)} bytes")
+#         modified = modify_offer_archive(data, js)
+#         print(f"[{oid}] modified, {len(modified)} bytes")
+#         archive_b64 = base64.b64encode(modified).decode("utf-8")
+#         response = httpx.put(
+#             f"{KEITARO_URL}/admin_api/v1/offers/{oid}",
+#             headers={"Api-Key": KEITARO_API_KEY},
+#             json={"archive": archive_b64},
+#             timeout=300.0,
+#         )
+#         response.raise_for_status()
+#         print(f"[{oid}] OK")
+#     except Exception as e:
+#         import traceback
+#         print(f"[{oid}] FAILED: {type(e).__name__}: {e}")
+#         traceback.print_exc()

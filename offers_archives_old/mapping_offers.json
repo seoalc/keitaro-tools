@@ -1,0 +1,541 @@
+{
+  "77": {
+    "id": 77,
+    "filename": "KW_Marzouq_Al-Ghanim_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Marzouq Al-Ghanim | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "76": {
+    "id": 76,
+    "filename": "KW_Bader_Al-Mutawa_Al_Jazeera_AutoMind_KW_sa.zip",
+    "name": "KW | Bader Al-Mutawa | Al Jazeera {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "75": {
+    "id": 75,
+    "filename": "KW_Bader_Nasser_Al-Kharafi_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Bader Nasser Al-Kharafi | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "74": {
+    "id": 74,
+    "filename": "KW_Essam_Al-Saqer_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Essam Al-Saqer | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "73": {
+    "id": 73,
+    "filename": "KW_Ilham_Al-Fadala_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Ilham Al-Fadala | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "72": {
+    "id": 72,
+    "filename": "KW_Layla_Abdullah_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Layla Abdullah | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "71": {
+    "id": 71,
+    "filename": "KW_Mishari_Rashid_Al-Afasy_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mishari Rashid Al-Afasy | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "70": {
+    "id": 70,
+    "filename": "KW_Mohammed_Alshaya_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mohammed Alshaya | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "69": {
+    "id": 69,
+    "filename": "KW_Shujoon_Al-Hajri_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Shujoon Al-Hajri | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "68": {
+    "id": 68,
+    "filename": "KW_Tariq_Al-Ali_Al_Jazeera_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Tariq Al-Ali | Al Jazeera | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "67": {
+    "id": 67,
+    "filename": "KW_Abdallah_Al-Rowaished_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Abdallah Al-Rowaished | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "66": {
+    "id": 66,
+    "filename": "KW_Halema_Boland_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Halema Boland | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "65": {
+    "id": 65,
+    "filename": "KW_Hassan_Suleiman_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Hassan Suleiman | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "64": {
+    "id": 64,
+    "filename": "KW_Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Mishal Al-Ahmad Al-Jaber Al-Sabah | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "63": {
+    "id": 63,
+    "filename": "KW_Nabil_Al-Awadi_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Nabil Al-Awadi | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "62": {
+    "id": 62,
+    "filename": "KW_Nawal_El_Kuwaitia_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Nawal El Kuwaitia | ALQABAS  | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "61": {
+    "id": 61,
+    "filename": "KW_Tareq_Al-Suwaidan_ALQABAS_INVEST_AutoMind_KW_sa.zip",
+    "name": "KW | Tareq Al-Suwaidan | ALQABAS | INVEST {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "60": {
+    "id": 60,
+    "filename": "KW_OFF_1_AutoMind_KW_sa.zip",
+    "name": "KW | OFF#1 {AutoMind KW}",
+    "geo": "KW",
+    "funnel": "AutoMind KW"
+  },
+  "59": {
+    "id": 59,
+    "filename": "PH_Marra_PL_Lanot_Inheritance_DIS_1_funnel_sa.zip",
+    "name": "PH | Marra PL Lanot | Inheritance | DIS#1 {funnel}",
+    "geo": "PH",
+    "funnel": "funnel"
+  },
+  "58": {
+    "id": 58,
+    "filename": "без_медиа_PH_Rosa_Rosal_Inheritance_DIS_1_funnel_sa.zip",
+    "name": "(без медиа) PH | Rosa Rosal | Inheritance | DIS#1 {funnel}",
+    "geo": "PH",
+    "funnel": "funnel"
+  },
+  "57": {
+    "id": 57,
+    "filename": "AU_Anthony_Albanese_funnel_sa.zip",
+    "name": "AU | Anthony Albanese {funnel}",
+    "geo": "AU",
+    "funnel": "Thornwick App"
+  },
+  "56": {
+    "id": 56,
+    "filename": "AU_OFF_1_funnel_sa.zip",
+    "name": "AU | OFF#1 {funnel}",
+    "geo": "AU",
+    "funnel": "Thornwick App"
+  },
+  "55": {
+    "id": 55,
+    "filename": "AU_Jacqui_Lambie_Angus_Taylor_AutoMind_AY_sa.zip",
+    "name": "AU | Jacqui Lambie, Angus Taylor {AutoMind AY}",
+    "geo": "AU",
+    "funnel": "AutoMind AY"
+  },
+  "54": {
+    "id": 54,
+    "filename": "AU_Jacqui_Lambie_Angus_Taylor_Lavandbit_Sammet_sa.zip",
+    "name": "AU | Jacqui Lambie, Angus Taylor {Lavandbit Sammet}",
+    "geo": "AU",
+    "funnel": "Lavandbit Sammet"
+  },
+  "53": {
+    "id": 53,
+    "filename": "NO_10_Inheritance_DIS_3_Frame_App_sa.zip",
+    "name": "NO | 10 | Inheritance | DIS#3 {Frame App}",
+    "geo": "NO",
+    "funnel": "Frame App"
+  },
+  "52": {
+    "id": 52,
+    "filename": "NO_10_Inheritance_DIS_2_Frame_App_sa.zip",
+    "name": "NO | 10 | Inheritance | DIS#2 {Frame App}",
+    "geo": "NO",
+    "funnel": "Frame App"
+  },
+  "51": {
+    "id": 51,
+    "filename": "NO_OFF_1_Waerdi_App_sa.zip",
+    "name": "NO | OFF#1 {Waerdi App}",
+    "geo": "NO",
+    "funnel": "Waerdi App"
+  },
+  "50": {
+    "id": 50,
+    "filename": "NO_OFF_1_Frame_App_sa.zip",
+    "name": "NO | OFF#1 {Frame App}",
+    "geo": "NO",
+    "funnel": "Frame App"
+  },
+  "49": {
+    "id": 49,
+    "filename": "NO_OFF_1_Bred_Fortjenstad_sa.zip",
+    "name": "NO | OFF#1 {Bred Fortjenstad}",
+    "geo": "NO",
+    "funnel": "Bred Fortjenstad"
+  },
+  "48": {
+    "id": 48,
+    "filename": "NO_10_Inheritance_DIS_1_Waerdi_App_sa.zip",
+    "name": "NO | 10 | Inheritance | DIS#1 {Waerdi App}",
+    "geo": "NO",
+    "funnel": "Waerdi App"
+  },
+  "47": {
+    "id": 47,
+    "filename": "NO_10_Inheritance_DIS_1_Frame_App_sa.zip",
+    "name": "NO | 10 | Inheritance | DIS#1 {Frame App}",
+    "geo": "NO",
+    "funnel": "Frame App"
+  },
+  "46": {
+    "id": 46,
+    "filename": "AU_Alan_Kohler_Invest_DIS_1_funnel_sa.zip",
+    "name": "AU | Alan Kohler | Invest | DIS#1 {funnel}",
+    "geo": "AU",
+    "funnel": "Thornwick App"
+  },
+  "45": {
+    "id": 45,
+    "filename": "SG_Choo_Chong_Ngen_Invest_DIS_1_Worldwide_Hotels_sa.zip",
+    "name": "SG | Choo Chong Ngen | Invest | DIS#1 {Worldwide Hotels}",
+    "geo": "SG",
+    "funnel": "Worldwide Hotels"
+  },
+  "44": {
+    "id": 44,
+    "filename": "SG_Forrest_Li_Invest_DIS_1_Forrest_Li_Foundation_sa.zip",
+    "name": "SG | Forrest Li | Invest | DIS#1 {Forrest Li Foundation}",
+    "geo": "SG",
+    "funnel": "Forrest Li Foundation"
+  },
+  "43": {
+    "id": 43,
+    "filename": "SG_Jack_Sim_Invest_DIS_1_World_Toilet_Organization_sa.zip",
+    "name": "SG | Jack Sim | Invest | DIS#1 {World Toilet Organization}",
+    "geo": "SG",
+    "funnel": "World Toilet Organization"
+  },
+  "42": {
+    "id": 42,
+    "filename": "SG_Neo_Kah_Kiat_Invest_DIS_1_SEED_Fund_sa.zip",
+    "name": "SG | Neo Kah Kiat | Invest | DIS#1 {SEED Fund}",
+    "geo": "SG",
+    "funnel": "SEED Fund"
+  },
+  "41": {
+    "id": 41,
+    "filename": "SG_George_Goh_Ching_Wah_Invest_DIS_1_Border_Mission_sa.zip",
+    "name": "SG | George Goh Ching Wah | Invest | DIS#1 {Border Mission}",
+    "geo": "SG",
+    "funnel": "Border Mission"
+  },
+  "40": {
+    "id": 40,
+    "filename": "без_медиа_SG_John_Lim_Invest_DIS_1_funnel_sa.zip",
+    "name": "(без медиа) SG | John Lim | Invest | DIS#1 {funnel}",
+    "geo": "SG",
+    "funnel": "JL Family Office"
+  },
+  "39": {
+    "id": 39,
+    "filename": "SG_Ron_Sim_Invest_DIS_1_Ron_Sim_Foundation_sa.zip",
+    "name": "SG | Ron Sim | Invest | DIS#1 {Ron Sim Foundation}",
+    "geo": "SG",
+    "funnel": "Ron Sim Foundation"
+  },
+  "38": {
+    "id": 38,
+    "filename": "SG_Von_Lee_Yong_Miang_Invest_DIS_1_Von_Lee_Yong_Miang_Bursary_sa.zip",
+    "name": "SG | Von Lee Yong Miang | Invest | DIS#1 {Von Lee Yong Miang Bursary}",
+    "geo": "SG",
+    "funnel": "Von Lee Yong Miang Bursary"
+  },
+  "37": {
+    "id": 37,
+    "filename": "PH_Rodrigo_Duterte_Invest_DIS_2-2_AutoMind_PH_sa.zip",
+    "name": "PH | Rodrigo Duterte | Invest | DIS#2-2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "36": {
+    "id": 36,
+    "filename": "PH_Rodrigo_Duterte_Invest_DIS_1-2_AutoMind_PH_sa.zip",
+    "name": "PH | Rodrigo Duterte | Invest | DIS#1-2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "35": {
+    "id": 35,
+    "filename": "BN_Prince_Abdul_Mateen_—_Amin_Liew_Abdullah_Debate_DIS_1_funnel_sa.zip",
+    "name": "BN | Prince Abdul Mateen — Amin Liew Abdullah | Debate |  DIS#1 {funnel}",
+    "geo": "BN",
+    "funnel": "funnel"
+  },
+  "34": {
+    "id": 34,
+    "filename": "без_картинки_PH_Sara_Duterte_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Sara Duterte | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "33": {
+    "id": 33,
+    "filename": "PH_Sara_Duterte_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Sara Duterte | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "32": {
+    "id": 32,
+    "filename": "PH_Sara_Duterte_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Sara Duterte | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "31": {
+    "id": 31,
+    "filename": "без_картинки_PH_Rodrigo_Duterte_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Rodrigo Duterte | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "30": {
+    "id": 30,
+    "filename": "PH_Rodrigo_Duterte_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Rodrigo Duterte | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "29": {
+    "id": 29,
+    "filename": "PH_Rodrigo_Duterte_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Rodrigo Duterte | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "28": {
+    "id": 28,
+    "filename": "без_картинки_PH_Manuel_V_Pangilinan_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Manuel V Pangilinan | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "27": {
+    "id": 27,
+    "filename": "PH_Manuel_V_Pangilinan_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Manuel V Pangilinan | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "26": {
+    "id": 26,
+    "filename": "PH_Manuel_V_Pangilinan_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Manuel V Pangilinan | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "25": {
+    "id": 25,
+    "filename": "без_картинки_PH_Manny_Villar_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Manny Villar | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "24": {
+    "id": 24,
+    "filename": "PH_Manny_Villar_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Manny Villar | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "23": {
+    "id": 23,
+    "filename": "PH_Manny_Villar_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Manny Villar | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "22": {
+    "id": 22,
+    "filename": "без_картинки_PH_Leni_Robredo_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Leni Robredo | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "21": {
+    "id": 21,
+    "filename": "PH_Leni_Robredo_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Leni Robredo | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "20": {
+    "id": 20,
+    "filename": "PH_Leni_Robredo_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Leni Robredo | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "19": {
+    "id": 19,
+    "filename": "без_картинки_PH_Jaime_Zobel_de_Ayala_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Jaime Zobel de Ayala | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "18": {
+    "id": 18,
+    "filename": "PH_Jaime_Zobel_de_Ayala_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Jaime Zobel de Ayala | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "17": {
+    "id": 17,
+    "filename": "PH_Jaime_Zobel_de_Ayala_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Jaime Zobel de Ayala | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "16": {
+    "id": 16,
+    "filename": "без_картинки_PH_Ferdinand_“Bongbong”_Marcos_Jr_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Ferdinand “Bongbong” Marcos Jr | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "15": {
+    "id": 15,
+    "filename": "PH_Ferdinand_“Bongbong”_Marcos_Jr_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Ferdinand “Bongbong” Marcos Jr | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "14": {
+    "id": 14,
+    "filename": "PH_Ferdinand_“Bongbong”_Marcos_Jr_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Ferdinand “Bongbong” Marcos Jr | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "13": {
+    "id": 13,
+    "filename": "без_картинки_PH_Enrique_Razon_Jr_Invest_DIS_3_AutoMind_PH_sa.zip",
+    "name": "(без картинки) PH | Enrique Razon Jr | Invest | DIS#3 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "12": {
+    "id": 12,
+    "filename": "PH_Enrique_Razon_Jr_Invest_DIS_2_AutoMind_PH_sa.zip",
+    "name": "PH | Enrique Razon Jr | Invest | DIS#2 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "11": {
+    "id": 11,
+    "filename": "PH_Enrique_Razon_Jr_Invest_DIS_1_AutoMind_PH_sa.zip",
+    "name": "PH | Enrique Razon Jr | Invest | DIS#1 {AutoMind PH}",
+    "geo": "PH",
+    "funnel": "AutoMind PH"
+  },
+  "10": {
+    "id": 10,
+    "filename": "BN_Sultan_Hassanal_Bolkiah_Invest_AutoMind_BN_sa.zip",
+    "name": "BN | Sultan Hassanal Bolkiah | Invest {AutoMind BN}",
+    "geo": "BN",
+    "funnel": "AutoMind BN"
+  },
+  "9": {
+    "id": 9,
+    "filename": "BN_Prince_Abdul_Mateen_AutoMind_BN_sa.zip",
+    "name": "BN | Prince Abdul Mateen {AutoMind BN}",
+    "geo": "BN",
+    "funnel": "AutoMind BN"
+  },
+  "8": {
+    "id": 8,
+    "filename": "BN_Wu_Chun_Invest_DigitalVaultis_BN_sa.zip",
+    "name": "BN | Wu Chun | Invest {DigitalVaultis BN}",
+    "geo": "BN",
+    "funnel": "DigitalVaultis BN"
+  },
+  "7": {
+    "id": 7,
+    "filename": "BN_Prince_Abdul_Mateen_Invest_AutoMind_BN_sa.zip",
+    "name": "BN | Prince Abdul Mateen | Invest {AutoMind BN}",
+    "geo": "BN",
+    "funnel": "AutoMind BN"
+  },
+  "6": {
+    "id": 6,
+    "filename": "MY_Tony_Fernandes_Invest_sa.zip",
+    "name": "MY | Tony Fernandes | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  },
+  "5": {
+    "id": 5,
+    "filename": "MY_Syed_Mokhtar_AlBukhary_Invest_sa.zip",
+    "name": "MY | Syed Mokhtar AlBukhary | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  },
+  "4": {
+    "id": 4,
+    "filename": "MY_Robert_Kuok_Invest_sa.zip",
+    "name": "MY | Robert Kuok | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  },
+  "3": {
+    "id": 3,
+    "filename": "MY_Quek_Leng_Chan_Invest_sa.zip",
+    "name": "MY | Quek Leng Chan | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  },
+  "2": {
+    "id": 2,
+    "filename": "MY_Jeffrey_Cheah_Invest_sa.zip",
+    "name": "MY | Jeffrey Cheah | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  },
+  "1": {
+    "id": 1,
+    "filename": "MY_Lim_Kok_Thay_Invest_sa.zip",
+    "name": "MY | Lim Kok Thay | Invest",
+    "geo": "MY",
+    "funnel": "AutoMind MY"
+  }
+}
