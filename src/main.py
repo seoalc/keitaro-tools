@@ -36,27 +36,25 @@ upload_offer_pages("offers_archives")
 # print("MATCH:", original == after)
 
 
-"""РјРёРіСЂР°С†РёСЏ РѕС„С„РµСЂРѕРІ"""
+""" операции с миграциями офферов """
 # download_all_offers(out_dir="offers_archives_old", mapping_path="offers_archives_old/mapping_offers.json")
 # upload_all_offers("offers_archives_old/mapping_offers.json", "offers_archives_old")
 # update_mapping_with_funnel("offers_archives_old/mapping_offers.json")
 
-"""РјРёРіСЂР°С†РёСЏ Р»РµРЅРґРёРЅРіРѕРІ"""
+""" операции с миграциями лендингов """
 # download_all_landings(out_dir="landing_archives_old", mapping_path="landing_archives_old/mapping_landings.json")
 # upload_all_landings("landing_archives_old/mapping_landings.json", archive_dir="landing_archives_old")
 
 
 # update_offer_file(40, "files/test2.txt", "hello2")
 
-from pathlib import Path
-
-js_path = Path(__file__).parent / "email-validation.js"
-
-with open(js_path, "r", encoding="utf-8") as f:
-    js = f.read()
-
-log_path = Path(__file__).parent / "inject_log.txt"
-inject_validator_into_all_offers(js, log_path=log_path)
+""" внедрение валидатора поля email в офферы с проверкой """
+# from pathlib import Path
+# js_path = Path(__file__).parent / "email-validation.js"
+# with open(js_path, "r", encoding="utf-8") as f:
+#     js = f.read()
+# log_path = Path(__file__).parent / "inject_log.txt"
+# inject_validator_into_all_offers(js, log_path=log_path)
 
 
 # for line in inject_validator_into_offer(40, js, dry_run=False):
