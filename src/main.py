@@ -17,19 +17,21 @@ from migrations import (
     upload_all_offers,
     upload_all_landings,
 )
+from phone_inputs import replace_phone_input
 import httpx
 import zipfile
 import io
 import base64
 from pathlib import Path
+import re
 
 print("Keitaro URL:", KEITARO_URL)
 print("API key exists:", bool(KEITARO_API_KEY))
 print("URL exists:", bool(KEITARO_URL))
 
 
-upload_landing_pages("landings_archives")
-upload_offer_pages("offers_archives")
+# upload_landing_pages("landings_archives")
+# upload_offer_pages("offers_archives")
 
 # original = get_offer_file(40, "send.php")
 # update_offer_file(40, "send.php", original)
@@ -77,3 +79,28 @@ upload_offer_pages("offers_archives")
 #         import traceback
 #         print(f"[{oid}] FAILED: {type(e).__name__}: {e}")
 #         traceback.print_exc()
+
+pattern_with_label = re.compile(
+    r'<label\b[^>]*>(?:(?!<input\b).)*<input\b[^>]*\bname=["\']phone["\'][^>]*/?>(?:(?!</label>).)*?</label>',
+    re.IGNORECASE | re.DOTALL
+)
+pattern_without_label = re.compile(r'<input\b[^>]*\bname=["\']phone["\'][^>]*/?>', re.IGNORECASE)
+
+NEW_PHONE_HTML = '''<div class="intgrtn-input-holder intgrtn-input-holder-phone">
+        <div class="phone-wrapper">
+          <label>Teléfono</label>
+            <input class="intgrtn-input phonelist phone-valid" id="phone" type="tel" name="phone" placeholder="Número de teléfono" required autocomplete="off">
+            <input name="full_phone" class="full_phone" type="hidden" value="">
+            <div class="error-message" id="error-phone-es">Por favor ingresa un número de teléfono válido</div>
+        </div>
+    </div>'''
+
+old_pattern = re.compile(r'name=["\']phone["\'][^>]*type=["\']tel', re.IGNORECASE)
+test_dir = Path(__file__).parent / "test_forms"
+for f in sorted(test_dir.glob("form*.html")):
+    content = f.read_text(encoding="utf-8")
+    new_content, status = replace_phone_input(content, NEW_PHONE_HTML)
+    old_left = bool(old_pattern.search(new_content))
+    print(f"{f.name}: {status}")
+    print(f"  NEW block count: {new_content.count('intgrtn-input-holder-phone')}")
+    print(f"  OLD input left: {old_left}")

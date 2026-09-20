@@ -1,0 +1,14 @@
+<form method="post" action="send.php" id="form">
+    <div class="form-row">
+      <label>First name<input type="text" name="first_name" autocomplete="given-name" inputmode="text" spellcheck="false" autocapitalize="words" required></label>
+      <label>Last name<input type="text" name="last_name" autocomplete="family-name" inputmode="text" spellcheck="false" autocapitalize="words" required></label>
+    </div>
+    <label>Email<input type="email" name="email" autocomplete="email" inputmode="email" spellcheck="false" autocapitalize="off" pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$" required></label>
+    <label>Phone<input type="tel" name="phone" autocomplete="tel" inputmode="tel" spellcheck="false" autocapitalize="off" required></label>
+    <input type="hidden" name="subid" value="{_subid}">
+    <input type="hidden" name="ip" value="{_ip}">
+    <input type="hidden" name="country" id="country" value="PH">
+    <input type="hidden" id="phonecc" name="phonecc" value="63">
+    <input type="hidden" name="funnel" value="{_offer_value:funnel}">
+    <button type="submit">Register now</button>
+</form>

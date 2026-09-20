@@ -1,0 +1,14 @@
+<form method="POST" action="send.php" autocomplete="off" id="form">
+              <label><span>Nombre</span><input type="text" name="first_name" required autocomplete="given-name" maxlength="60"></label>
+              <label><span>Apellido</span><input type="text" name="last_name" required autocomplete="family-name" maxlength="60"></label>
+              <label><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+              <label><span>Teléfono</span><input type="tel" name="phone" required autocomplete="tel"></label>
+              <button type="submit">Enviar</button>
+              <input type="hidden" name="subid" value="{_subid}">
+              <input type="hidden" name="ip" value="{_ip}">
+              <input type="hidden" name="country" id="country">
+              <input type="hidden" id="phonecc" name="phonecc">
+              <input type="hidden" name="funnel" value="{_offer_value:funnel}">
+              <input type="hidden" name="aff_sub2" value="{sub_id_14}">
+              <input type="hidden" name="lang" value="{sub_id_15}">
+            </form>
