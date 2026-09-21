@@ -1,15 +1,23 @@
-<form method="POST" action="send.php" autocomplete="off" class="Send-Us-Message-Wrapper" id="form">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test form N</title>
+</head>
+<body>
+    <form method="POST" action="send.php" autocomplete="off" class="Send-Us-Message-Wrapper" id="form">
 
-    <input type="text" id="name" name="first_name" placeholder="Nombre" required="" class="input inputname" autocomplete="off" maxlength="60" value="">
-    <input type="text" id="last_name" name="last_name" placeholder="Apellido" required="" class="input inputlastname" autocomplete="off" maxlength="60" value="">
-    <input type="email" id="email" name="email" placeholder="Correo electrónico" required="" class="input" autocomplete="off" pattern="^[^\s@]+@[^\s@]+\.[A-Za-z]{2,}$" value="">
-    <input type="tel" id="phone" name="phone" required="" class="input phone" autocomplete="off" placeholder="321 123 4567" data-intl-tel-input-id="0" value="">
-    <button type="submit" id="submit-btn" class="Send-Us-Message-Btn">
-        Enviar
-    </button>
-        <input type="hidden" name="subid" value="{_subid}">
-        <input type="hidden" name="ip" value="{_ip}">
-        <input type="hidden" name="country" id="country">
-        <input type="hidden" id="phonecc" name="phonecc">
-        <input type="hidden" name="funnel" value="{_offer_value:funnel}">
-</form>
+        <input type="text" id="name" name="first_name" placeholder="Nombre" required="" class="input inputname" autocomplete="off" maxlength="60" value="">
+        <input type="text" id="last_name" name="last_name" placeholder="Apellido" required="" class="input inputlastname" autocomplete="off" maxlength="60" value="">
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" required="" class="input" autocomplete="off" pattern="^[^\s@]+@[^\s@]+\.[A-Za-z]{2,}$" value="">
+        <input type="tel" id="phone" name="phone" required="" class="input phone" autocomplete="off" placeholder="321 123 4567" data-intl-tel-input-id="0" value="">
+        <button type="submit" id="submit-btn" class="Send-Us-Message-Btn">
+            Enviar
+        </button>
+            <input type="hidden" name="subid" value="{_subid}">
+            <input type="hidden" name="ip" value="{_ip}">
+            <input type="hidden" name="country" id="country">
+            <input type="hidden" id="phonecc" name="phonecc">
+            <input type="hidden" name="funnel" value="{_offer_value:funnel}">
+    </form>
+</body>
+</html>

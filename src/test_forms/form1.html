@@ -1,16 +1,24 @@
-<form action="send.php" aria-labelledby="form-title" id="form" method="post">
-<label><span>First name</span>
-<input autocomplete="given-name" name="first_name" required="" type="text"/></label>
-<label><span>Last name</span>
-<input autocomplete="family-name" name="last_name" required="" type="text"/></label>
-<label><span>Email</span>
-<input autocomplete="email" name="email" required="" type="email"/></label>
-<label><span>Phone</span>
-<input autocomplete="tel" name="phone" required="" type="tel"/></label>
-<button type="submit">Activate Your Account Now</button>
-<input name="subid" type="hidden" value="{_subid}"/>
-<input name="ip" type="hidden" value="{_ip}"/>
-<input id="country" name="country" type="hidden"/>
-<input id="phonecc" name="phonecc" type="hidden"/>
-<input name="funnel" type="hidden" value="{_offer_value:funnel}"/>
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test form N</title>
+</head>
+<body>
+    <form action="send.php" aria-labelledby="form-title" id="form" method="post">
+        <label><span>First name</span>
+        <input autocomplete="given-name" name="first_name" required="" type="text"/></label>
+        <label><span>Last name</span>
+        <input autocomplete="family-name" name="last_name" required="" type="text"/></label>
+        <label><span>Email</span>
+        <input autocomplete="email" name="email" required="" type="email"/></label>
+        <label><span>Phone</span>
+        <input autocomplete="tel" name="phone" required="" type="tel"/></label>
+        <button type="submit">Activate Your Account Now</button>
+        <input name="subid" type="hidden" value="{_subid}"/>
+        <input name="ip" type="hidden" value="{_ip}"/>
+        <input id="country" name="country" type="hidden"/>
+        <input id="phonecc" name="phonecc" type="hidden"/>
+        <input name="funnel" type="hidden" value="{_offer_value:funnel}"/>
+    </form>
+</body>
+</html>
