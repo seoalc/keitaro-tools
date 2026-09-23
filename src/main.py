@@ -10,6 +10,7 @@ from kt_files import (
     download_offer_archive,
     modify_offer_archive,
     inject_validator_into_all_offers,
+    get_all_offers,
 )
 from migrations import (
     download_all_offers,
@@ -21,6 +22,10 @@ from migrations import (
 from process_offer import process_offer, process_all_offers
 from phone_inputs import PHONE_RULES, PHONE_ASSETS
 from email_validator import EMAIL_RULES, EMAIL_ASSETS
+from macros import MACROS_RULES
+from rules_engine import apply_rules
+from audit import audit_all_offers
+from fix_macros_duples import fix_back_duplicates
 
 import httpx
 import zipfile
@@ -32,7 +37,7 @@ import re
 print("Keitaro URL:", KEITARO_URL)
 print("API key exists:", bool(KEITARO_API_KEY))
 print("URL exists:", bool(KEITARO_URL))
-ALL_RULES = EMAIL_RULES + PHONE_RULES
+ALL_RULES = EMAIL_RULES + PHONE_RULES + MACROS_RULES
 ALL_ASSETS = {**EMAIL_ASSETS, **PHONE_ASSETS}
 
 
@@ -125,7 +130,7 @@ ALL_ASSETS = {**EMAIL_ASSETS, **PHONE_ASSETS}
 #     for entry in log2:
 #         print(f"  {entry['rule_id']}: {entry['status']}")
 #     print(f"  NEW phone block: {new_content2.count('intgrtn-input-holder-phone')}")
-# test_ids = [633]
+# test_ids = [47]
 # for oid in test_ids:
 #     status, log = process_offer(oid, ALL_RULES, ALL_ASSETS, dry_run=True)
 #     print(f"Status: {status}")
@@ -135,4 +140,29 @@ ALL_ASSETS = {**EMAIL_ASSETS, **PHONE_ASSETS}
 #         print(f"  [{file_}] {rule_}: {entry['status']}")
 
 
-process_all_offers(ALL_RULES, ALL_ASSETS, dry_run=False)
+process_all_offers(ALL_RULES, ALL_ASSETS, dry_run=False, offers=False)
+
+""" функционал работы с макросами """
+# test_dir = Path(__file__).parent / "test_forms"
+# form7_path = test_dir / "form7.html"
+# form7 = form7_path.read_text(encoding="utf-8")
+# new_content, log = apply_rules(form7, MACROS_RULES)
+# print(new_content)
+# new_content2, log2 = apply_rules(new_content, MACROS_RULES)
+# print("=== SECOND RUN ===")
+# for entry in log2:
+#     print(f"  {entry['rule_id']}: {entry['status']}")
+# print(f"\nUnchanged: {new_content == new_content2}")
+# status, log = process_offer(40, ALL_RULES, ALL_ASSETS, dry_run=False)
+# print(f"Status: {status}")
+# for entry in log:
+#     file_ = entry.get("file") or "—"
+#     rule_ = entry.get("rule_id") or "—"
+#     print(f"  [{file_}] {rule_}: {entry['status']}")
+
+""" audit offers to errors """
+# problems = audit_all_offers()
+# Список из аудита
+# PROBLEM_IDS = [122, 121, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 64, 63, 62, 61, 60, 59, 58, 57, 51, 50, 47, 46, 45, 44, 14, 12, 8]   # ← вставь полностью
+
+# fixed, skipped, failed = fix_back_duplicates(PROBLEM_IDS)

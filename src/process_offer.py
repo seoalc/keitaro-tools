@@ -101,7 +101,13 @@ def modify_archive(data, rules, assets):
 
 
 def process_offer(offer_id, rules, assets, dry_run=True):
-    data = download_offer_archive(offer_id)
+    try:
+        data = download_offer_archive(offer_id)
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code == 422:
+            # Нет локальных файлов (redirect, external, preloaded)
+            return "skipped", [{"file": None, "rule_id": None, "status": "no files (redirect?)"}]
+        raise   # остальные ошибки — наверх
     new_data, modify_log = modify_archive(data, rules, assets)
     
     # Агрегируем статусы по правилам (пропускаем записи без rule_id)
@@ -151,8 +157,12 @@ def process_offer(offer_id, rules, assets, dry_run=True):
     response.raise_for_status()
     return "ok", modify_log
 
-def process_all_offers(rules, assets, dry_run=True):
-    offers = get_all_offers()   # новый Keitaro
+def process_all_offers(rules, assets, dry_run=True, offers=False):
+    if offers:
+        offers = offers
+    else:
+        offers = get_all_offers()   # новый Keitaro
+    offers = [o for o in offers if o.get("offer_type") == "local"]
     results = {"ok": [], "skipped": [], "dry_run": [], "failed": []}
     
     log_path = Path(__file__).parent / "process_log.txt"
@@ -174,7 +184,6 @@ def process_all_offers(rules, assets, dry_run=True):
                 log.write(f"[{offer_id}] FAILED: {e}\n")
                 log.flush()
                 print(f"[{offer_id}] FAILED: {e}")
-                log.write(format_log_summary(offer_id, "status", entries) + "\n")
     
     print(f"\nOK: {len(results['ok'])}")
     print(f"Skipped: {len(results['skipped'])}")
@@ -193,7 +202,15 @@ def with_retry(fn, *args, attempts=3, delay=5, **kwargs):
     for attempt in range(attempts):
         try:
             return fn(*args, **kwargs)
-        except (httpx.TimeoutException, httpx.HTTPStatusError) as e:
+        except httpx.HTTPStatusError as e:
+            if 400 <= e.response.status_code < 500 and e.response.status_code != 429:
+                # 4xx (кроме 429) — не ретраим
+                raise
+            last_exc = e
+            if attempt < attempts - 1:
+                print(f"  retry {attempt + 1}/{attempts - 1}: {e}")
+                time.sleep(delay)
+        except httpx.TimeoutException as e:
             last_exc = e
             if attempt < attempts - 1:
                 print(f"  retry {attempt + 1}/{attempts - 1}: {e}")
